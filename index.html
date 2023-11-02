@@ -11,35 +11,34 @@
             text-align: right;
         }
 
-        /* Center the main content both vertically and horizontally */
-        #main-content {
-            position: absolute;
-            top: 50%;
-            right: 0%;
-            transform: translateY(-50%);
-        }
 
         /* Style for the heading (wozo to wozo) */
         h1 {
             font-size: 86px;
             color: rgb(128, 191, 255);
             font-weight: bold;
-        }
-        h2 {            
-            font-size: 50px;
-            color: black;
-            font-weight: bold;
+            width: 100%; /* Make the content full width */
+            text-align: center; /* Center-align the content horizontally */
+            position: absolute; /* Position it absolutely at the top */
+            top: 0; /* Position it at the top */
         }
 
         /* Style for the classes belonging to P and for paragraph text (Al andar se hace el camino...) */
        .class1{
+            top: 10%;
+            right: 50%;
+            transform: translateY(-50%);
            font-size: 53px;
            color: rgb(140,0,26);
        }
         .class2{
+            top: 10%;
+            right: 50%;
+            transform: translateY(-50%);
             font-size: 23px;
             color: rgb(255,219,88)
         }
+
         
         table {
             text-align:left; /*align table to the left*/
@@ -53,11 +52,12 @@
     </style>
 </head>
 <body>
-    <div id="main-content">
-        <h1>wozo to wozo</h1>
+    <div>
+        <h1>wozo to wozoelo</h1>
+    </div>
+    <div>
         <p class="class1">Al andar se hace el camino...</p>
         <p class="class2">Wozo is an abbreviated form of wozoelo </p>
-
     </div>
     <!-- this is table of contents table -->
     <div> 
@@ -78,6 +78,8 @@
                         <img src="images/feetboot.jpg" width= "230"height= "210" alt="Toes and leather boots. Farm life."
                         <p> Judicial Comedy</p>
                     </td>
+                </tr>    
+                <tr>    
                     <td>
                         <img src="images/feetboot.jpg" width= "230"height= "210" alt="Toes and leather boots. Farm life."
                         <p> What you didn't know you didn't know</p>
